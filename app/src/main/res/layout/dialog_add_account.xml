@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	              android:orientation="vertical"
+	              android:layout_width="match_parent"
+	              android:padding="12dp"
+	              android:layout_height="wrap_content">
+		<TextView
+			android:layout_marginStart="12dp"
+			android:layout_marginLeft="12dp"
+			android:layout_width="match_parent"
+			android:layout_height="64dp"
+			android:gravity="center_vertical|start"
+			android:fontFamily="sans-serif"
+			android:textStyle="bold|italic"
+			android:textAllCaps="true"
+			android:textSize="20sp"
+			android:textColor="@android:color/primary_text_light"
+			android:text="@string/add_an_account"/>
+		<EditText
+			android:id="@+id/add_acc_name"
+			android:inputType="text"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="4dp"
+			android:layout_marginLeft="4dp"
+			android:layout_marginRight="4dp"
+			android:layout_marginBottom="16dp"
+			android:fontFamily="sans-serif"
+			android:hint="@string/acc_name"/>
+		<EditText
+			android:id="@+id/add_acc_number"
+			android:inputType="number"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="16dp"
+			android:layout_marginLeft="4dp"
+			android:layout_marginRight="4dp"
+			android:layout_marginBottom="4dp"
+			android:hint="@string/account_number" />
+	</LinearLayout>
+	</android.support.v7.widget.CardView>
